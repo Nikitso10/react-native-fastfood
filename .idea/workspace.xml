@@ -4,64 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cc09503-e6e8-4f0d-abfa-4798f1cb1c56" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Quicksand-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Quicksand-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Quicksand-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Quicksand-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Quicksand-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/arrow-back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/arrow-down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/arrow-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/bag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/check.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/clock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/dollar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/envelope.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/location.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/logout.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/minus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/pencil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/person.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/plus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/trash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/avocado.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/bacon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/burger-one.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/burger-two.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/buritto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/cheese.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/coleslaw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/cucumber.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/empty-state.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/fries.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/login-graphic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/mozarella-sticks.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/mushrooms.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/onion-rings.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/onions.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/pizza-one.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/salad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/tomatoes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/CartButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constants/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images.d.ts" afterDir="false" />
+    <list default="true" id="5cc09503-e6e8-4f0d-abfa-4798f1cb1c56" name="Changes" comment="Assets, index page, cart button component">
+      <change afterPath="$PROJECT_DIR$/app/(auth)/_layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(auth)/sign-in.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(auth)/sign-up.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(tabs)/cart.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(tabs)/profile.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(tabs)/search.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/appwrite.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/SpaceMono-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +68,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nikim\MyFiles\reactnative_fastfood_app\app\(tabs)" />
       <recent name="C:\Users\nikim\MyFiles\reactnative_fastfood_app" />
       <recent name="C:\Users\nikim\MyFiles\reactnative_fastfood_app\assets" />
     </key>
@@ -134,7 +90,7 @@
       <workItem from="1758647536661" duration="13507000" />
       <workItem from="1758820231174" duration="3850000" />
       <workItem from="1758829903674" duration="5915000" />
-      <workItem from="1758905433388" duration="5981000" />
+      <workItem from="1758905433388" duration="12000000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -144,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758820790021</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Assets, index page, cart button component">
+      <option name="closed" value="true" />
+      <created>1758916350821</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1758916350821</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +116,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Assets, index page, cart button component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assets, index page, cart button component" />
   </component>
 </project>
