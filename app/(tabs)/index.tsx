@@ -4,9 +4,13 @@ import {images, offers} from "@/constants";
 import React, {Fragment} from "react";
 import cn from 'clsx';
 import CartButton from "@/components/CartButton";
-import * as Sentry from "@sentry/react-native";
+import useAuthStore from "@/store/auth.store";
+//import * as Sentry from "@sentry/react-native";
 
 export default function Index() {
+    const {user} = useAuthStore();
+    console.log("useAuthUser: ",JSON.stringify(user, null, 2));
+
   return (
       <SafeAreaView className="flex-1 bg-white">
 
