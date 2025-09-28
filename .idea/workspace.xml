@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="529d183e-67ff-4aa9-b498-21cc8ff93f67" name="Changes" comment="Sentry error tracking">
-      <change afterPath="$PROJECT_DIR$/store/auth.store.ts" afterDir="false" />
+    <list default="true" id="529d183e-67ff-4aa9-b498-21cc8ff93f67" name="Changes" comment="Zustand state management">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(auth)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/_layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1759051130547</updated>
-      <workItem from="1759051133167" duration="16033000" />
+      <workItem from="1759051133167" duration="19763000" />
     </task>
     <task id="LOCAL-00001" summary="Appwrite, signin and signup functions">
       <option name="closed" value="true" />
@@ -94,7 +88,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759066254781</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Zustand state management">
+      <option name="closed" value="true" />
+      <created>1759084535164</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1759084535164</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +105,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Appwrite, signin and signup functions" />
     <MESSAGE value="Sentry error tracking" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sentry error tracking" />
+    <MESSAGE value="Zustand state management" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zustand state management" />
   </component>
 </project>
