@@ -1,4 +1,4 @@
-import {Account, Avatars, Client, Databases, ID, Query} from "react-native-appwrite";
+import {Account, Avatars, Client, Databases, ID, Query, Storage} from "react-native-appwrite";
 import {CreateUserParams, SignInParams} from "@/type";
 
 export const appwriteConfig = {
@@ -6,12 +6,12 @@ export const appwriteConfig = {
     projectId: process.env.EXPO_PUBLIC_APPWRITE_PROJECT_ID!,
     platform: "com.nikitso.foodordering",
     databaseId: '68d7b65a0018cf4466f9',
-    //bucketId: '68643e170015edaa95d7',
+    bucketId: '68d9a5f00010dd46bcbb',
     userCollectionId: 'user',
-    //categoriesCollectionId: '68643a390017b239fa0f',
-    //menuCollectionId: '68643ad80027ddb96920',
-    //customizationsCollectionId: '68643c0300297e5abc95',
-    //menuCustomizationsCollectionId: '68643cd8003580ecdd8f'
+    categoriesCollectionId: 'categories',
+    menuCollectionId: 'menu',
+    customizationsCollectionId: 'customizations',
+    menuCustomizationsCollectionId: 'menu_customizations'
 }
 
 export const client = new Client();
@@ -23,7 +23,7 @@ client
 
 export const account = new Account(client);
 export const databases = new Databases(client);
-//export const storage = new Storage(client);
+export const storage = new Storage(client);
 const avatars = new Avatars(client);
 
 export const createUser = async ({ email, password, name }: CreateUserParams) => {

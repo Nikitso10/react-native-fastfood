@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="529d183e-67ff-4aa9-b498-21cc8ff93f67" name="Changes" comment="Zustand state management">
+    <list default="true" id="529d183e-67ff-4aa9-b498-21cc8ff93f67" name="Changes" comment="Tabs screen">
+      <change afterPath="$PROJECT_DIR$/lib/data.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/seed.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(tabs)/search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/search.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/appwrite.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/appwrite.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +73,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1759051130547</updated>
-      <workItem from="1759051133167" duration="19763000" />
+      <workItem from="1759051133167" duration="27973000" />
+      <workItem from="1759165664256" duration="1349000" />
+      <workItem from="1759170183748" duration="4634000" />
     </task>
     <task id="LOCAL-00001" summary="Appwrite, signin and signup functions">
       <option name="closed" value="true" />
@@ -96,7 +101,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759084535164</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Tabs screen">
+      <option name="closed" value="true" />
+      <created>1759088760717</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1759088760717</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +119,7 @@
     <MESSAGE value="Appwrite, signin and signup functions" />
     <MESSAGE value="Sentry error tracking" />
     <MESSAGE value="Zustand state management" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zustand state management" />
+    <MESSAGE value="Tabs screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tabs screen" />
   </component>
 </project>
