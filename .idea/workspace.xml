@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="529d183e-67ff-4aa9-b498-21cc8ff93f67" name="Changes" comment="Seeding database">
-      <change afterPath="$PROJECT_DIR$/lib/useAppwrite.ts" afterDir="false" />
+    <list default="true" id="529d183e-67ff-4aa9-b498-21cc8ff93f67" name="Changes" comment="Search screen, useAppwrite hook, Appwrite get functions">
+      <change afterPath="$PROJECT_DIR$/components/MenuCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(tabs)/search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/search.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/appwrite.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/appwrite.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/type.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/type.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +75,7 @@
       <workItem from="1759051133167" duration="27973000" />
       <workItem from="1759165664256" duration="1349000" />
       <workItem from="1759170183748" duration="8904000" />
+      <workItem from="1759225508671" duration="6619000" />
     </task>
     <task id="LOCAL-00001" summary="Appwrite, signin and signup functions">
       <option name="closed" value="true" />
@@ -116,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759181928209</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Search screen, useAppwrite hook, Appwrite get functions">
+      <option name="closed" value="true" />
+      <created>1759225731761</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1759225731761</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +137,7 @@
     <MESSAGE value="Zustand state management" />
     <MESSAGE value="Tabs screen" />
     <MESSAGE value="Seeding database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Seeding database" />
+    <MESSAGE value="Search screen, useAppwrite hook, Appwrite get functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Search screen, useAppwrite hook, Appwrite get functions" />
   </component>
 </project>

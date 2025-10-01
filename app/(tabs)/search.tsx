@@ -6,6 +6,8 @@ import {useLocalSearchParams} from "expo-router";
 import {useEffect} from "react";
 import CartButton from "@/components/CartButton";
 import cn from "clsx";
+import MenuCard from "@/components/MenuCard";
+import {MenuItem} from "@/type";
 //import seed from "@/lib/seed";
 
 const Search = () => {
@@ -22,7 +24,7 @@ const Search = () => {
 
     const { data: categories } = useAppwrite({fn: getCategories});
 
-    //console.log("Data" , data);
+    console.log("Data" , data);
 
     useEffect(() => {
         refetch({category, query, limit: 6});
@@ -39,8 +41,8 @@ const Search = () => {
 
                 return (
                     <View className={cn("flex-1 max-w-[48%]", isFirstRightColItem ? 'mt-10' : 'mt-0')}>
-                    <Text>Menu Card</Text>
-                </View>
+                        <MenuCard item={item as MenuItem}/>
+                    </View>
                 )
             }}
                 keyExtractor={(item) => item.$id}
