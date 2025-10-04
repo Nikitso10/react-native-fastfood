@@ -1,7 +1,8 @@
-import { ID } from "react-native-appwrite";
+import {ID, Permission, Role} from "react-native-appwrite";
 import { appwriteConfig, databases, storage } from "./appwrite";
 import dummyData from "./data";
 import * as FileSystem from "expo-file-system";
+
 
 
 interface Category {
@@ -79,7 +80,7 @@ async function clearStorage(): Promise<void> {
 //     return storage.getFileViewURL(appwriteConfig.bucketId, file.$id);
 // }
 
-// Download images to device
+// Download images first to device and after to storage
 async function uploadImageToStorage(imageUrl: string) {
     const filename = imageUrl.split("/").pop() || `file-${Date.now()}.jpg`;
     const localPath = FileSystem.cacheDirectory + filename;
@@ -99,9 +100,12 @@ async function uploadImageToStorage(imageUrl: string) {
         {
             uri,
             name: filename,
-            type: "image/jpeg",  // you could also detect based on extension
-            size: info.size ?? 0 // 👈 add size here
-        }
+            type: "image/jpeg",
+            size: info.size ?? 0
+        },
+        [
+            Permission.read(Role.any()), // public read
+        ]
     );
 
     return storage.getFileViewURL(appwriteConfig.bucketId, file.$id);

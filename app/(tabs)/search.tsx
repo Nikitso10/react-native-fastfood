@@ -1,8 +1,8 @@
-import {FlatList, Text, View} from 'react-native';
+import {Button, FlatList, Text, View} from 'react-native';
 import {SafeAreaView} from "react-native-safe-area-context";
 import useAppwrite from "@/lib/useAppwrite";
 import {getCategories, getMenu} from "@/lib/appwrite";
-import {useLocalSearchParams} from "expo-router";
+import { useLocalSearchParams} from "expo-router";
 import {useEffect} from "react";
 import CartButton from "@/components/CartButton";
 import cn from "clsx";
@@ -24,7 +24,7 @@ const Search = () => {
 
     const { data: categories } = useAppwrite({fn: getCategories});
 
-    console.log("Data" , data);
+    //console.log("Data" , data);
 
     useEffect(() => {
         refetch({category, query, limit: 6});
@@ -32,8 +32,9 @@ const Search = () => {
 
     return (
         <SafeAreaView className="bg-white h-full">
-            {/* Seeding Button - single use
-            <Button title="Seed" onPress={() => seed().catch((err) => console.log("failed to seed the DB", err))} />*/}
+            {/* Seeding Button - single use*/}
+            {/*<Button title="Seed" onPress={() => seed().catch((err) => console.log("failed to seed the DB", err))} />*/}
+
             <FlatList
                 data={data}
                 renderItem={({ item, index }) => {

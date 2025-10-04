@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="529d183e-67ff-4aa9-b498-21cc8ff93f67" name="Changes" comment="Search screen, useAppwrite hook, Appwrite get functions">
-      <change afterPath="$PROJECT_DIR$/components/MenuCard.tsx" afterDir="false" />
+    <list default="true" id="529d183e-67ff-4aa9-b498-21cc8ff93f67" name="Changes" comment="MenuCard component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(tabs)/search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/search.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/type.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/type.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/MenuCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/MenuCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/seed.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/seed.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +76,9 @@
       <workItem from="1759165664256" duration="1349000" />
       <workItem from="1759170183748" duration="8904000" />
       <workItem from="1759225508671" duration="6619000" />
+      <workItem from="1759308629079" duration="5075000" />
+      <workItem from="1759332171073" duration="13957000" />
+      <workItem from="1759607136029" duration="4490000" />
     </task>
     <task id="LOCAL-00001" summary="Appwrite, signin and signup functions">
       <option name="closed" value="true" />
@@ -125,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759225731761</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="MenuCard component">
+      <option name="closed" value="true" />
+      <created>1759308748498</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1759308748498</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +149,7 @@
     <MESSAGE value="Tabs screen" />
     <MESSAGE value="Seeding database" />
     <MESSAGE value="Search screen, useAppwrite hook, Appwrite get functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Search screen, useAppwrite hook, Appwrite get functions" />
+    <MESSAGE value="MenuCard component" />
+    <option name="LAST_COMMIT_MESSAGE" value="MenuCard component" />
   </component>
 </project>
