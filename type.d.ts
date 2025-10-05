@@ -11,7 +11,7 @@ export interface MenuItem extends Models.DefaultDocument {
     type: string;
 }
 
-export interface Category extends Models.Document {
+export interface Category extends Models.DefaultDocument {
     name: string;
     description: string;
 }
