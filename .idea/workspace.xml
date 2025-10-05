@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="529d183e-67ff-4aa9-b498-21cc8ff93f67" name="Changes" comment="MenuCard component">
+    <list default="true" id="529d183e-67ff-4aa9-b498-21cc8ff93f67" name="Changes" comment="Seed permissions, menucard image_url fix">
+      <change afterPath="$PROJECT_DIR$/components/Filter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/SearchBar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(tabs)/search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/search.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/MenuCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/MenuCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/seed.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/seed.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +80,8 @@
       <workItem from="1759225508671" duration="6619000" />
       <workItem from="1759308629079" duration="5075000" />
       <workItem from="1759332171073" duration="13957000" />
-      <workItem from="1759607136029" duration="4490000" />
+      <workItem from="1759607136029" duration="4920000" />
+      <workItem from="1759660628241" duration="9564000" />
     </task>
     <task id="LOCAL-00001" summary="Appwrite, signin and signup functions">
       <option name="closed" value="true" />
@@ -136,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759308748498</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Seed permissions, menucard image_url fix">
+      <option name="closed" value="true" />
+      <created>1759615315886</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1759615315886</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +161,7 @@
     <MESSAGE value="Seeding database" />
     <MESSAGE value="Search screen, useAppwrite hook, Appwrite get functions" />
     <MESSAGE value="MenuCard component" />
-    <option name="LAST_COMMIT_MESSAGE" value="MenuCard component" />
+    <MESSAGE value="Seed permissions, menucard image_url fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Seed permissions, menucard image_url fix" />
   </component>
 </project>
